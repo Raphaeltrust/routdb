@@ -9,12 +9,14 @@ RoutDB makes development work much faster by accessing and managing all your dat
 <li>Track available databases </li>
 <li>Fast and secured </li>
 <li>Built-in session for optimal security </li>
-<li>Compatible with all major servers including Apach, xampp etc.</li>
+<li>Compatible with all major servers including Apach, xampp etc.</li></ul>
+
 # Documentation
 
 Briefly are some of the documentation of routDB
 
 # Installation 
+
 RoutDB is a PHP script, so it is very easy to install. RoutDB is compatible with all major servers including Apache, Lighttpd, Nginx etc.<br>
 No technical knowledge required to use RoutDB, easily follow the simple steps below<br>
 <ul><li><strong>STEP 1:</strong> Download routDB .zip file from the GitHub repository</li>
@@ -37,6 +39,7 @@ Session name can contain letters, you can name your session name with any name o
 RoutDB is a free open source project, contributors are highly welcomed
 
 #For Help
+
 If you have any questions or require additional help please contact me via <br>
 <strong>Mail:</strong> raphaeltrust89@gmail.com
 <strong>Phone:</strong> +2348141686988<br>
