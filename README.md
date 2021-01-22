@@ -9,7 +9,7 @@ RoutDB makes development work much faster by accessing and managing all your dat
 <li>Track available databases </li>
 <li>Fast and secured </li>
 <li>Built-in session for optimal security </li>
-<li>Compatible with all major servers including Apach, xampp etc.</li></ul>
+<li>Compatible with all major servers including Apache, xampp etc.</li></ul>
 
 # Documentation
 
