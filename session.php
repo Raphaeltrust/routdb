@@ -46,7 +46,7 @@ a local server, by default it is usually "root".
 </li></ul>
 <p>To enable RoutDB communicate with your server, please provide the correct
 details of your server. </p>
-<p>For more help visit the <a href="#">Documentation</a></p>
+<p>For more help visit the <a href="https://github.com/Raphaeltrust/routdb">Documentation</a></p>
 </p>
 <button onclick="closeHelp()">Close</button>
 </div></div>
