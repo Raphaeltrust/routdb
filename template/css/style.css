@@ -1,0 +1,246 @@
+
+#home-btn{
+text-align:center;
+width:100%;
+height:40px;margin:2px;
+box-sizing:border-box;
+}
+#home-btn button{
+padding:10px;
+border-radius:4px;
+background: #000;
+color:#fff;
+border:none;
+outline:none;
+}
+#home-btn button:hover{
+border:2px solid gray;
+}
+
+#errors{
+background:rgba(225,0,0,0.2);color:red;
+padding:10px;
+border:1px solid rgba(225,0,0,0.4);
+display:none;
+}
+#container{
+margin-top:40px;padding:10px;
+}
+#menu-logo{margin-left:15px;
+font-size:25px; font-weight:900;
+color:#00bfff;
+}
+#nav-content #close{
+float:right;clear:both;
+position:relative;
+top:0;right:5px;font-size:25px;
+border-radius:50%;color:gray;
+}
+#nav-content a:hover{
+background:#00bfff;color:#fff;font-weight:400;transition:0.5s;
+margin:0px 10px 0px 10px;border-radius:10px;
+animation-name:modal;
+animation-duration:0.3s;
+}
+#menu-line{
+background:#00bfff;
+height:1px;width:100%;margin-top:5px;
+}
+#nav-content{overflow:auto;
+}
+#nav-content a{
+display:block;font-weight:800;
+text-decoration:none;
+padding:15px;color:rgba(0,0,0,0.8);
+}
+#nav-menu{
+height:100%;width:0px;
+background:rgba(0,0,0,0.4);
+position:fixed;
+z-index:1;overflow:auto;
+top:0;
+}
+#nav-menu #nav-content{
+height:100%;
+width:70%;
+background:#fff;
+}
+#myheader{
+position:fixed; width:100%;top:0;
+}
+#myheader #navicon{font-size:30px;
+float:left;
+}
+#myheader #add-db{
+float:right; font-size:30px;
+}
+/*-----*/
+*{box-sizing:  border-box;}
+body, html{
+padding:0; margin:0;
+}
+header{
+padding:10px; width:100%;
+background: #00bfff;text-align:center;
+color:#fff; font-size:20px;
+font-weight:800;
+}
+.form{
+height:auto; width:80%;
+ margin: 0 auto;
+margin-top:50px;background:#fff;
+}
+.form input{
+width:100%; height:30px;margin-bottom:10px;
+border:none; border-bottom:1px solid #00bfff;
+outline:none;font-family: 'Open Sans', sans-serif;
+}
+.form input:hover{
+border-bottom: thin solid green; transition:1.5s;
+}
+.form label{
+color:gray; font-size:16px;
+}
+.form .submit{
+border:none;
+border-radius:5px; height:40px;font-weight:600;
+background:#00bfff; color:#fff;
+}
+.form .submit:hover{
+background:green;
+transition:1.5s;
+box-shadow: 1px 1px 5px gray;
+}
+#helpbox{background:#fff;
+width:100%;text-align:center;
+margin-top:50px;
+}
+#helpbox a{color:#000;
+text-decoration:none;
+}
+a, p, div, label, span{
+font-family: 'Open Sans', sans-serif;
+}
+.pop-up{
+height:100%;width:100%;
+position:fixed;z-index:1;
+display:none;
+top:0;left:0;overflow:auto;
+color:#000;
+background:rgba(0,0,0,0.4); 
+}
+#msg{
+background:rgba(225,0,0,0.2);color:red;
+padding:10px;border-radius:4px;
+border:1px solid rgba(225,0,0,0.4);
+}
+.pop-up p,li{
+font-size:11px;
+}
+.pop-up button{
+background:#00bfff;color:#fff;
+outline:none;
+border:none;height:25px;
+border-radius:3px;
+}
+.pop-up div{
+margin: 10% auto;
+width:80%;
+background:#fff;
+padding:10px;
+border-radius:10px;
+box-shadow:2px 2px 10px gray;
+animation-name:modal;
+animation-duration:1s;
+}
+@keyframes modal{
+from{ opacity:0;transform:scale(0.8);}
+to{opacity:1;transform:scale(1);}
+}
+#database-row{
+height:auto; width:100%;
+padding:5px;
+}
+#database-row p{background:lightgray;
+padding:5px;
+border-radius:5px;
+font-weight:800;
+}
+#database-row a{
+text-decoration:none;
+float:right;
+color:#fff;
+background :red;
+padding:4px;font-size:10px;
+border-radius:2px;
+}
+#database-row a:hover{
+background:#00bfff;
+transition:1s;
+}
+.connected{
+background:green;color:#fff;
+padding:5px; width:100%;
+border-radius:2px;
+}
+.row{
+display:flex;
+padding:5px;
+background:yellow;
+height:100px;
+}
+.row div{
+height:80px;
+width:100%;
+background:red;
+padding:5px;margin:5px;
+}
+#page-title{
+background:linear-gradient(#00bfff, #00bfff, rgba(135,206,235,0.4));
+height:100px;
+color:#fff;
+text-align:center;
+border-radius:0px 0px 50% 50%;
+margin-top:50px;
+font-size:22px;
+font-weight:300;
+}
+#page-title span{
+display:inline-block;
+margin-top:30px;
+}
+.serverInfo{
+background:#00bfff; 
+color:#000000;
+height:auto;
+padding:10px;
+font-size:12px;
+border-radius:10px;
+font-weight:800;
+margin:0 auto;
+margin-bottom:10px;
+box-shadow:2px 2px 4px rgba(135,206,235,1);
+}
+.serverInfo h2{
+text-align:center;font-size:14px;
+padding:0;margin:0;color:rgba(225,225,225,0.9);
+}
+.serverInfo span{color:darkblue;
+}
+@media only screen and (min-width: 768px) {
+        .form{width:40%;
+        }
+        #col2 {width:70%;
+        display:flex;padding:10px;
+        margin:0 auto;
+         }
+         #col2 div{
+         margin:5px;
+         }
+         #nav-menu #nav-content{
+         width:30%;
+         }
+         .pop-up div{
+         width:40%;
+         }
+      }
