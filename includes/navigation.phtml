@@ -1,0 +1,28 @@
+<!-- Navigation for logged in users-->
+<header id="myheader">
+<i class="fa fa-bars" id="navicon"></i> <span id="logo">RoutDB</span> <i class="fa fa-sign-out"id="add-db" onclick="openModal()"></i>
+</header>
+<div id="nav-menu">
+<div id="nav-content">
+<span id="close">&#215</span> <p id="menu-logo">RoutDB</p>
+<a href="/"><i class="fa fa-tachometer"></i> Dashboard </a>
+<a href="create.php" ><i class="fa fa-database"></i> Create Database</a>
+<a href="database.php" ><i class="fa fa-server"></i> My Database</a>
+<a href="delete.php" ><i class="fa fa-trash"></i> Delete Database</a>
+<a href="javascript:void(0)" onclick="openModal()"><i class="fa fa-sign-out"></i> Exit Session</a>
+<div id="menu-line">
+<a href="#" >About</a>
+<a href="#" >License</a>
+<a href="#" >Help</a>
+<a href="https://www.facebook.com/raphaeltrust11" >Facebook</a>
+<a href="https://twitter.com/raphaelakpofure" >Twitter</a>
+
+</div>
+</div>
+</div>
+<div class="pop-up"id="pop-up">
+<div style=" text-align:center;"><p style="font-size:16px;">Are you sure you want to exit this session?
+Once you exit this session 	you will need to create a new session</p>
+<a href="close.php"><button>CONTINUE</button></a> <button style="background:red;"onclick="closeModal()">CANCEL</button>
+</div>
+</div>
